@@ -95,9 +95,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. RegEx Source Generator"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. gRPC JSON Transcoding", "03. gRPC JSON Transcoding", "{FE6BA3DD-FD60-4C40-ACBB-A31C6340388E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7AndCSharp11.Maui", "DotNet7AndCSharp11.Maui\DotNet7AndCSharp11.Maui.csproj", "{31F845C2-9DED-43EE-9931-0798AECCE853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet7AndCSharp11.Maui", "DotNet7AndCSharp11.Maui\DotNet7AndCSharp11.Maui.csproj", "{31F845C2-9DED-43EE-9931-0798AECCE853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7AndCSharp11.MauiBlazor", "DotNet7AndCSharp11.MauiBlazor\DotNet7AndCSharp11.MauiBlazor.csproj", "{02764534-A7A7-4C6B-9888-FFF5C5603EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet7AndCSharp11.MauiBlazor", "DotNet7AndCSharp11.MauiBlazor\DotNet7AndCSharp11.MauiBlazor.csproj", "{02764534-A7A7-4C6B-9888-FFF5C5603EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7AndCSharp11.CSharp11.FileLocalTypes", "DotNet7AndCSharp11.CSharp11.FileLocalTypes\DotNet7AndCSharp11.CSharp11.FileLocalTypes.csproj", "{C18176E1-53AE-47C1-9598-9B1C6526F70A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{02764534-A7A7-4C6B-9888-FFF5C5603EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02764534-A7A7-4C6B-9888-FFF5C5603EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02764534-A7A7-4C6B-9888-FFF5C5603EE5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C18176E1-53AE-47C1-9598-9B1C6526F70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18176E1-53AE-47C1-9598-9B1C6526F70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18176E1-53AE-47C1-9598-9B1C6526F70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18176E1-53AE-47C1-9598-9B1C6526F70A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -289,6 +295,7 @@ Global
 		{F4CBFDE7-B627-4649-BB9E-2CE8DDDEF196} = {C9640471-89AA-468F-B1D0-E0FF469557EC}
 		{31F845C2-9DED-43EE-9931-0798AECCE853} = {4306D57C-5B33-466A-A020-8C73437729F6}
 		{02764534-A7A7-4C6B-9888-FFF5C5603EE5} = {4306D57C-5B33-466A-A020-8C73437729F6}
+		{C18176E1-53AE-47C1-9598-9B1C6526F70A} = {BB4D2A4D-80E2-4E7A-9110-E36DFE1F76D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09DE9320-026F-4BC5-A0EC-7FABCCE71CED}
